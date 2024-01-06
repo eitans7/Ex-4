@@ -11,7 +11,7 @@ PORT = 80
 SOCKET_TIMEOUT = 2
 WEB_ROOT = "C:/work/cyber/Ex-4/webroot"
 DEFAULT_URI = WEB_ROOT + "/index.html"
-REDIRECTION_DICTIONARY = {}
+REDIRECTION_DICTIONARY = {"/moved": "/index.html"}
 request_type = ""
 request_uri = ""
 request_protocol_version = ""
@@ -88,7 +88,7 @@ def handle_client_request(resource, client_socket):
     if not validate_header_flag:
         response_status_code = "400 BAD REQUEST"
         status_code_flag = False
-    if uri in REDIRECTION_DICTIONARY:
+    if resource in REDIRECTION_DICTIONARY:
         response_status_code = '302 MOVED TEMPORARILY'
         status_code_flag = False
     if 'forbidden' in uri.lower():
@@ -104,9 +104,15 @@ def handle_client_request(resource, client_socket):
     data = None
     if status_code_flag:
         data = get_file_data(resource)
-    http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
-                   response_content_type + chr(13) + chr(10) +
-                   str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
+
+    if response_status_code != "302 MOVED TEMPORARILY":
+        http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
+                       response_content_type + chr(13) + chr(10) +
+                       str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
+    else:
+        http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
+                        "Location: /index.html" + chr(13) + chr(10) +
+                       str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
     if data != None:
         http_response = http_header.encode() + data
     else:
@@ -174,21 +180,23 @@ def handle_client(client_socket):
     :param client_socket: the socket for the communication with the client
     :return: None
     """
-    global request_type, request_uri, request_protocol_version, response_status_code
+    global request_type, request_uri, request_protocol_version, response_status_code, response_body_length
     print('Client connected')
-    response_status_code = "200 OK"
     while True:
+        response_status_code = "200 OK"
+        response_body_length = 0
         request_type = read_from_socket(client_socket, " ")
         request_uri = read_from_socket(client_socket, " ")
         request_protocol_version = read_from_socket(client_socket, chr(13))
-        consume_request(client_socket)
+        #consume_request(client_socket)
+        trash = client_socket.recv(5000)
 
         valid_http, resource = validate_http_request()
         if valid_http:
             print('Got a valid HTTP request')
             handle_client_request(resource, client_socket)
         else:
-            print('Error: Not a valid HTTP request' + request_type +"123 " + request_uri + "123 " + request_protocol_version)
+            print('Error: Not a valid HTTP request')
             break
     print('Closing connection')
 
