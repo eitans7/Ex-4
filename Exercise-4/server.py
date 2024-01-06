@@ -32,6 +32,18 @@ response_status_code = "200 OK"
 status_code_flag = True
 
 
+def reset_server():
+    global request_type, request_uri, request_protocol_version, validate_header_flag, response_content_type,\
+        response_body_length, response_status_code, status_code_flag
+    request_type = ""
+    request_uri = ""
+    request_protocol_version = ""
+    validate_header_flag = True
+    response_content_type = ""
+    response_body_length = 0
+    response_status_code = "200 OK"
+    status_code_flag = True
+
 def get_file_data(file_name):
     """
     Get data from file
@@ -47,6 +59,7 @@ def get_file_data(file_name):
             return content
     else:
         response_status_code = "404 NOT FOUND"
+        response_body_length = 0
         return None
 
 
@@ -149,29 +162,6 @@ def read_from_socket(client_socket, delimiter):
 
     return content
 
-def consume_request(client_socket):
-    request_data = b''
-    delimiter = b'\r\n\r\n'
-    delimiter_length = len(delimiter)
-    read_buffer = b''
-
-    while True:
-        # Read one byte at a time
-        part = client_socket.recv(1)
-        request_data += part
-        read_buffer += part
-
-        # Keep only the last few characters that are needed to match the delimiter
-        if len(read_buffer) > delimiter_length:
-            read_buffer = read_buffer[-delimiter_length:]
-
-        # Check if the delimiter is in the read buffer
-        if read_buffer == delimiter:
-            break
-
-        if not part:
-            break
-
 
 def handle_client(client_socket):
     """
@@ -180,20 +170,21 @@ def handle_client(client_socket):
     :param client_socket: the socket for the communication with the client
     :return: None
     """
-    global request_type, request_uri, request_protocol_version, response_status_code, response_body_length
+    global request_type, request_uri, request_protocol_version, response_status_code,\
+        response_body_length, status_code_flag
+    status_code_flag = True
     print('Client connected')
     while True:
-        response_status_code = "200 OK"
-        response_body_length = 0
         request_type = read_from_socket(client_socket, " ")
         request_uri = read_from_socket(client_socket, " ")
         request_protocol_version = read_from_socket(client_socket, chr(13))
-        #consume_request(client_socket)
+
         trash = client_socket.recv(5000)
 
         valid_http, resource = validate_http_request()
         if valid_http:
             print('Got a valid HTTP request')
+            response_status_code = "200 OK"
             handle_client_request(resource, client_socket)
         else:
             print('Error: Not a valid HTTP request')
@@ -201,9 +192,8 @@ def handle_client(client_socket):
     print('Closing connection')
 
 
-
-
 def main():
+    global status_code_flag
     # Open a socket and loop forever while waiting for clients
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
