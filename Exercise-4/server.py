@@ -208,7 +208,6 @@ def handle_client(client_socket):
 
 def main():
     global status_code_flag
-    # Open a socket and loop forever while waiting for clients
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         server_socket.bind((IP, PORT))
