@@ -1,0 +1,431 @@
+DEBUG | 2024-01-07 18:14:59,380 | ready for client request
+DEBUG | 2024-01-07 18:15:09,864 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,036 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,037 | Request URI: /moved
+DEBUG | 2024-01-07 18:15:10,037 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,037 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,038 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,038 | ready for client request
+DEBUG | 2024-01-07 18:15:10,039 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,040 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,040 | Request URI: /
+DEBUG | 2024-01-07 18:15:10,040 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,040 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,040 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,040 | ready for client request
+DEBUG | 2024-01-07 18:15:10,067 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,068 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,068 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:15:10,068 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,068 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,068 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,068 | ready for client request
+DEBUG | 2024-01-07 18:15:10,069 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,069 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,069 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:15:10,070 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,070 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,070 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,070 | ready for client request
+DEBUG | 2024-01-07 18:15:10,070 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,071 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,071 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:15:10,071 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,071 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,071 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,071 | ready for client request
+DEBUG | 2024-01-07 18:15:10,071 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,072 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,072 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:15:10,072 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,072 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,072 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,072 | ready for client request
+DEBUG | 2024-01-07 18:15:10,072 | processing handle client func
+DEBUG | 2024-01-07 18:15:10,073 | Request Type: GET
+DEBUG | 2024-01-07 18:15:10,073 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:15:10,073 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:10,073 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:10,073 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:10,073 | ready for client request
+DEBUG | 2024-01-07 18:15:36,106 | processing handle client func
+DEBUG | 2024-01-07 18:15:36,106 | Request Type: GET
+DEBUG | 2024-01-07 18:15:36,106 | Request URI: /error
+DEBUG | 2024-01-07 18:15:36,106 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:15:36,106 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:15:36,106 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:15:36,106 | ready for client request
+DEBUG | 2024-01-07 18:15:36,109 | processing handle client func
+DEBUG | 2024-01-07 18:15:38,118 | ready for client request
+DEBUG | 2024-01-07 18:15:38,118 | processing handle client func
+DEBUG | 2024-01-07 18:15:40,130 | ready for client request
+DEBUG | 2024-01-07 18:16:49,476 | ready for client request
+DEBUG | 2024-01-07 18:17:02,819 | processing handle client func
+DEBUG | 2024-01-07 18:17:02,819 | Request Type: GET
+DEBUG | 2024-01-07 18:17:02,819 | Request URI: /error
+DEBUG | 2024-01-07 18:17:02,819 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:17:02,819 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:17:02,819 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:17:02,819 | ready for client request
+DEBUG | 2024-01-07 18:17:02,822 | processing handle client func
+DEBUG | 2024-01-07 18:17:04,837 | ready for client request
+DEBUG | 2024-01-07 18:17:04,837 | processing handle client func
+DEBUG | 2024-01-07 18:17:06,841 | ready for client request
+DEBUG | 2024-01-07 18:18:23,528 | ready for client request
+DEBUG | 2024-01-07 18:18:28,943 | processing handle client func
+DEBUG | 2024-01-07 18:18:28,943 | Request Type: GET
+DEBUG | 2024-01-07 18:18:28,943 | Request URI: /error
+DEBUG | 2024-01-07 18:18:28,943 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:18:28,943 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:18:28,943 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:18:28,944 | ready for client request
+DEBUG | 2024-01-07 18:18:28,944 | processing handle client func
+DEBUG | 2024-01-07 18:18:30,956 | ready for client request
+DEBUG | 2024-01-07 18:18:30,957 | processing handle client func
+DEBUG | 2024-01-07 18:18:32,966 | ready for client request
+DEBUG | 2024-01-07 18:18:35,865 | processing handle client func
+DEBUG | 2024-01-07 18:18:35,866 | Request Type: GET
+DEBUG | 2024-01-07 18:18:35,866 | Request URI: /forbidden
+DEBUG | 2024-01-07 18:18:35,866 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:18:35,866 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:18:35,866 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:18:35,866 | ready for client request
+DEBUG | 2024-01-07 18:18:44,190 | processing handle client func
+DEBUG | 2024-01-07 18:18:44,469 | Request Type: GET
+DEBUG | 2024-01-07 18:18:44,469 | Request URI: /hyug.html
+DEBUG | 2024-01-07 18:18:44,470 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:18:44,470 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:18:44,471 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:18:44,471 | ready for client request
+DEBUG | 2024-01-07 18:18:44,471 | processing handle client func
+DEBUG | 2024-01-07 18:18:46,476 | ready for client request
+DEBUG | 2024-01-07 18:19:07,410 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,411 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,411 | Request URI: /moved
+DEBUG | 2024-01-07 18:19:07,411 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,411 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,411 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,411 | ready for client request
+DEBUG | 2024-01-07 18:19:07,414 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,415 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,415 | Request URI: /
+DEBUG | 2024-01-07 18:19:07,415 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,415 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,415 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,416 | ready for client request
+DEBUG | 2024-01-07 18:19:07,432 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,432 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,432 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:19:07,432 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,432 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,433 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,433 | ready for client request
+DEBUG | 2024-01-07 18:19:07,433 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,433 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,433 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:19:07,433 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,433 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,434 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,434 | ready for client request
+DEBUG | 2024-01-07 18:19:07,434 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,434 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,434 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:19:07,434 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,434 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,435 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,435 | ready for client request
+DEBUG | 2024-01-07 18:19:07,450 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,450 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,450 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:19:07,450 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,450 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,450 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,450 | ready for client request
+DEBUG | 2024-01-07 18:19:07,452 | processing handle client func
+DEBUG | 2024-01-07 18:19:07,452 | Request Type: GET
+DEBUG | 2024-01-07 18:19:07,452 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:19:07,452 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:07,453 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:07,453 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:07,453 | ready for client request
+DEBUG | 2024-01-07 18:19:15,062 | processing handle client func
+DEBUG | 2024-01-07 18:19:15,062 | Request Type: GET
+DEBUG | 2024-01-07 18:19:15,062 | Request URI: /error
+DEBUG | 2024-01-07 18:19:15,062 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:19:15,062 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:19:15,062 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:19:15,062 | ready for client request
+DEBUG | 2024-01-07 18:19:15,064 | processing handle client func
+DEBUG | 2024-01-07 18:19:17,077 | ready for client request
+DEBUG | 2024-01-07 18:19:17,077 | processing handle client func
+DEBUG | 2024-01-07 18:19:19,090 | ready for client request
+DEBUG | 2024-01-07 18:20:11,200 | ready for client request
+DEBUG | 2024-01-07 18:20:18,933 | processing handle client func
+DEBUG | 2024-01-07 18:20:18,933 | Request Type: GET
+DEBUG | 2024-01-07 18:20:18,933 | Request URI: /
+DEBUG | 2024-01-07 18:20:18,933 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:18,933 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:18,934 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:20,935 | ready for client request
+DEBUG | 2024-01-07 18:20:20,935 | processing handle client func
+DEBUG | 2024-01-07 18:20:20,936 | Request Type: GET
+DEBUG | 2024-01-07 18:20:20,936 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:20:20,936 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:20,937 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:20,937 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:22,953 | ready for client request
+DEBUG | 2024-01-07 18:20:22,953 | processing handle client func
+DEBUG | 2024-01-07 18:20:22,954 | Request Type: GET
+DEBUG | 2024-01-07 18:20:22,954 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:20:22,955 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:22,955 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:22,956 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:24,969 | ready for client request
+DEBUG | 2024-01-07 18:20:24,969 | processing handle client func
+DEBUG | 2024-01-07 18:20:24,969 | Request Type: GET
+DEBUG | 2024-01-07 18:20:24,969 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:20:24,969 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:24,969 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:24,969 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:26,970 | ready for client request
+DEBUG | 2024-01-07 18:20:26,970 | processing handle client func
+DEBUG | 2024-01-07 18:20:26,970 | Request Type: GET
+DEBUG | 2024-01-07 18:20:26,970 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:20:26,970 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:26,970 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:26,971 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:28,986 | ready for client request
+DEBUG | 2024-01-07 18:20:28,986 | processing handle client func
+DEBUG | 2024-01-07 18:20:28,987 | Request Type: GET
+DEBUG | 2024-01-07 18:20:28,987 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:20:28,987 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:28,987 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:28,988 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:20:31,001 | ready for client request
+DEBUG | 2024-01-07 18:20:45,906 | processing handle client func
+DEBUG | 2024-01-07 18:20:45,906 | Request Type: GET
+DEBUG | 2024-01-07 18:20:45,906 | Request URI: /moved
+DEBUG | 2024-01-07 18:20:45,906 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:20:45,906 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:20:45,906 | A Response Was Sen Back To The Client.
+DEBUG | 2024-01-07 18:21:51,039 | ready for client request
+DEBUG | 2024-01-07 18:21:56,919 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,919 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,919 | Request URI: /
+DEBUG | 2024-01-07 18:21:56,919 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,920 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,920 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,920 | ready for client request
+DEBUG | 2024-01-07 18:21:56,921 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,940 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,940 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:21:56,940 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,940 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,940 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,941 | ready for client request
+DEBUG | 2024-01-07 18:21:56,947 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,947 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,947 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:21:56,947 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,948 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,948 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,948 | ready for client request
+DEBUG | 2024-01-07 18:21:56,948 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,948 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,949 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:21:56,949 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,949 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,949 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,949 | ready for client request
+DEBUG | 2024-01-07 18:21:56,950 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,950 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,950 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:21:56,950 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,950 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,951 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,951 | ready for client request
+DEBUG | 2024-01-07 18:21:56,951 | processing handle client func
+DEBUG | 2024-01-07 18:21:56,951 | Request Type: GET
+DEBUG | 2024-01-07 18:21:56,951 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:21:56,951 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:56,951 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:56,952 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:56,952 | ready for client request
+DEBUG | 2024-01-07 18:21:57,030 | processing handle client func
+DEBUG | 2024-01-07 18:21:57,030 | Request Type: GET
+DEBUG | 2024-01-07 18:21:57,030 | Request URI: /imgs/favicon.ico
+DEBUG | 2024-01-07 18:21:57,030 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:21:57,030 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:21:57,031 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:21:57,031 | ready for client request
+DEBUG | 2024-01-07 18:22:05,379 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,380 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,380 | Request URI: /index.html
+DEBUG | 2024-01-07 18:22:05,380 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,380 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,380 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,380 | ready for client request
+DEBUG | 2024-01-07 18:22:05,384 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,392 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,392 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:22:05,392 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,392 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,392 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,392 | ready for client request
+DEBUG | 2024-01-07 18:22:05,392 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,393 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,393 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:22:05,393 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,393 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,394 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,394 | ready for client request
+DEBUG | 2024-01-07 18:22:05,394 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,395 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,395 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:22:05,395 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,395 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,395 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,396 | ready for client request
+DEBUG | 2024-01-07 18:22:05,396 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,396 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,396 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:22:05,396 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,396 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,396 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,397 | ready for client request
+DEBUG | 2024-01-07 18:22:05,397 | processing handle client func
+DEBUG | 2024-01-07 18:22:05,397 | Request Type: GET
+DEBUG | 2024-01-07 18:22:05,397 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:22:05,397 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:05,397 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:05,397 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:05,397 | ready for client request
+DEBUG | 2024-01-07 18:22:26,707 | processing handle client func
+DEBUG | 2024-01-07 18:22:26,715 | Request Type: GET
+DEBUG | 2024-01-07 18:22:26,715 | Request URI: /error
+DEBUG | 2024-01-07 18:22:26,716 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:26,716 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:26,716 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:26,716 | ready for client request
+DEBUG | 2024-01-07 18:22:26,731 | processing handle client func
+DEBUG | 2024-01-07 18:22:28,746 | ready for client request
+DEBUG | 2024-01-07 18:22:28,746 | processing handle client func
+DEBUG | 2024-01-07 18:22:30,756 | ready for client request
+DEBUG | 2024-01-07 18:22:32,265 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,265 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,265 | Request URI: /moved
+DEBUG | 2024-01-07 18:22:32,265 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,265 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,265 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,265 | ready for client request
+DEBUG | 2024-01-07 18:22:32,269 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,270 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,270 | Request URI: /
+DEBUG | 2024-01-07 18:22:32,270 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,270 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,270 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,270 | ready for client request
+DEBUG | 2024-01-07 18:22:32,276 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,276 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,276 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:22:32,276 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,276 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,276 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,276 | ready for client request
+DEBUG | 2024-01-07 18:22:32,276 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,276 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,276 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:22:32,276 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,276 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,276 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,276 | ready for client request
+DEBUG | 2024-01-07 18:22:32,276 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,276 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,276 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:22:32,276 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,276 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,276 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,276 | ready for client request
+DEBUG | 2024-01-07 18:22:32,276 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,276 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,276 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:22:32,276 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,276 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,276 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,276 | ready for client request
+DEBUG | 2024-01-07 18:22:32,297 | processing handle client func
+DEBUG | 2024-01-07 18:22:32,298 | Request Type: GET
+DEBUG | 2024-01-07 18:22:32,298 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:22:32,298 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:32,298 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:32,298 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:32,298 | ready for client request
+DEBUG | 2024-01-07 18:22:36,679 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,705 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,705 | Request URI: /
+DEBUG | 2024-01-07 18:22:36,705 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,705 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,705 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,705 | ready for client request
+DEBUG | 2024-01-07 18:22:36,713 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,715 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,715 | Request URI: /css/doremon.css
+DEBUG | 2024-01-07 18:22:36,715 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,715 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,716 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,716 | ready for client request
+DEBUG | 2024-01-07 18:22:36,716 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,716 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,716 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-07 18:22:36,716 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,716 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,716 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,717 | ready for client request
+DEBUG | 2024-01-07 18:22:36,717 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,717 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,717 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-07 18:22:36,717 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,717 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,718 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,718 | ready for client request
+DEBUG | 2024-01-07 18:22:36,718 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,718 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,718 | Request URI: /js/box.js
+DEBUG | 2024-01-07 18:22:36,720 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,720 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,720 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,720 | ready for client request
+DEBUG | 2024-01-07 18:22:36,720 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,721 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,721 | Request URI: /js/submit.js
+DEBUG | 2024-01-07 18:22:36,721 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,721 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,721 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,722 | ready for client request
+DEBUG | 2024-01-07 18:22:36,738 | processing handle client func
+DEBUG | 2024-01-07 18:22:36,738 | Request Type: GET
+DEBUG | 2024-01-07 18:22:36,738 | Request URI: /imgs/favicon.ico
+DEBUG | 2024-01-07 18:22:36,738 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:36,738 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:36,738 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:36,738 | ready for client request
+DEBUG | 2024-01-07 18:22:43,111 | processing handle client func
+DEBUG | 2024-01-07 18:22:43,126 | Request Type: GET
+DEBUG | 2024-01-07 18:22:43,126 | Request URI: /forbidden
+DEBUG | 2024-01-07 18:22:43,126 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:43,126 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:43,126 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:43,126 | ready for client request
+DEBUG | 2024-01-07 18:22:43,130 | processing handle client func
+DEBUG | 2024-01-07 18:22:45,131 | ready for client request
+DEBUG | 2024-01-07 18:22:45,131 | processing handle client func
+DEBUG | 2024-01-07 18:22:46,353 | Request Type: GET
+DEBUG | 2024-01-07 18:22:46,353 | Request URI: /forbi
+DEBUG | 2024-01-07 18:22:46,353 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-07 18:22:46,353 | Is The Request Valid: True
+DEBUG | 2024-01-07 18:22:46,353 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-07 18:22:46,353 | ready for client request
+DEBUG | 2024-01-07 18:22:46,357 | processing handle client func
+DEBUG | 2024-01-07 18:22:48,365 | ready for client request
+DEBUG | 2024-01-07 18:22:48,365 | processing handle client func
+DEBUG | 2024-01-07 18:22:50,367 | ready for client request

@@ -4,6 +4,7 @@
 """
 import socket
 import os
+import logging
 
 QUEUE_SIZE = 10
 IP = '0.0.0.0'
@@ -30,6 +31,10 @@ response_content_type = ""
 response_body_length = 0
 response_status_code = "200 OK"
 status_code_flag = True
+LOG_FORMAT = '%(levelname)s | %(asctime)s | %(message)s'
+LOG_LEVEL = logging.DEBUG
+LOG_DIR = 'log'
+LOG_FILE = LOG_DIR + '/server.log'
 
 
 def reset_server():
@@ -118,19 +123,23 @@ def handle_client_request(resource, client_socket):
     if status_code_flag:
         data = get_file_data(resource)
 
-    if response_status_code != "302 MOVED TEMPORARILY":
+    if response_status_code == "200 OK":
         http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
                        response_content_type + chr(13) + chr(10) +
                        str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
-    else:
+    elif response_status_code == "302 MOVED TEMPORARILY":
         http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
-                        "Location: /index.html" + chr(13) + chr(10) +
-                       str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
-    if data != None:
-        http_response = http_header.encode() + data
+                        "Location: /" + chr(13) + chr(10) + chr(13) + chr(10))
     else:
+        http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10)
+                       + chr(13) + chr(10))
+    if data == None:
         http_response = http_header.encode()
+    else:
+        http_response = http_header.encode() + data
     client_socket.send(http_response)
+    logging.debug("A Response Was Sent Back To The Client.")
+    client_socket.close()
 
 
 def validate_http_request():
@@ -174,14 +183,19 @@ def handle_client(client_socket):
         response_body_length, status_code_flag
     status_code_flag = True
     print('Client connected')
+    logging.debug("processing handle client func")
     while True:
         request_type = read_from_socket(client_socket, " ")
         request_uri = read_from_socket(client_socket, " ")
         request_protocol_version = read_from_socket(client_socket, chr(13))
+        logging.debug("Request Type: " + request_type)
+        logging.debug("Request URI: " + request_uri)
+        logging.debug("Request Protocol Version: " + request_protocol_version)
 
         trash = client_socket.recv(5000)
 
         valid_http, resource = validate_http_request()
+        logging.debug("Is The Request Valid: " + str(valid_http))
         if valid_http:
             print('Got a valid HTTP request')
             response_status_code = "200 OK"
@@ -202,6 +216,7 @@ def main():
         print("Listening for connections on port %d" % PORT)
 
         while True:
+            logging.debug("ready for client request")
             client_socket, client_address = server_socket.accept()
             try:
                 print('New connection received')
@@ -209,8 +224,6 @@ def main():
                 handle_client(client_socket)
             except socket.error as err:
                 print('received socket exception - ' + str(err))
-            finally:
-                client_socket.close()
     except socket.error as err:
         print('received socket exception - ' + str(err))
     finally:
@@ -218,4 +231,7 @@ def main():
 
 
 if __name__ == "__main__":
+    if not os.path.isdir(LOG_DIR):
+        os.makedirs(LOG_DIR)
+    logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
     main()
