@@ -1,6 +1,8 @@
 """
  HTTP Server
  Author: Eitan Shoshan
+ Description: the derver is getting requests from the browser and servse it
+ Date: 7/1/2024
 """
 import socket
 import os
@@ -37,18 +39,6 @@ LOG_DIR = 'log'
 LOG_FILE = LOG_DIR + '/server.log'
 
 
-def reset_server():
-    global request_type, request_uri, request_protocol_version, validate_header_flag, response_content_type,\
-        response_body_length, response_status_code, status_code_flag
-    request_type = ""
-    request_uri = ""
-    request_protocol_version = ""
-    validate_header_flag = True
-    response_content_type = ""
-    response_body_length = 0
-    response_status_code = "200 OK"
-    status_code_flag = True
-
 def get_file_data(file_name):
     """
     Get data from file
@@ -69,6 +59,11 @@ def get_file_data(file_name):
 
 
 def get_extension_from_url(url):
+    """
+    gets the file extension from the url request
+    :param url:
+    :return: file extension e.g. html
+    """
     last_slash_index = url.rfind('/')
     if last_slash_index != -1:
         # Extract the part of the URL after the last slash
@@ -139,7 +134,6 @@ def handle_client_request(resource, client_socket):
         http_response = http_header.encode() + data
     client_socket.send(http_response)
     logging.debug("A Response Was Sent Back To The Client.")
-    client_socket.close()
 
 
 def validate_http_request():
@@ -158,6 +152,12 @@ def validate_http_request():
     return validate_header_flag, request_uri
 
 def read_from_socket(client_socket, delimiter):
+    """
+    Parse the request
+    :param client_socket:
+    :param delimiter:
+    :return: the content from the request untill the delimiter
+    """
     content = ""
     global validate_header_flag
     recieved_char = client_socket.recv(1).decode()
@@ -184,29 +184,32 @@ def handle_client(client_socket):
     status_code_flag = True
     print('Client connected')
     logging.debug("processing handle client func")
-    while True:
-        request_type = read_from_socket(client_socket, " ")
-        request_uri = read_from_socket(client_socket, " ")
-        request_protocol_version = read_from_socket(client_socket, chr(13))
-        logging.debug("Request Type: " + request_type)
-        logging.debug("Request URI: " + request_uri)
-        logging.debug("Request Protocol Version: " + request_protocol_version)
 
-        trash = client_socket.recv(5000)
+    request_type = read_from_socket(client_socket, " ")
+    request_uri = read_from_socket(client_socket, " ")
+    request_protocol_version = read_from_socket(client_socket, chr(13))
+    logging.debug("Request Type: " + request_type)
+    logging.debug("Request URI: " + request_uri)
+    logging.debug("Request Protocol Version: " + request_protocol_version)
 
-        valid_http, resource = validate_http_request()
-        logging.debug("Is The Request Valid: " + str(valid_http))
-        if valid_http:
-            print('Got a valid HTTP request')
-            response_status_code = "200 OK"
-            handle_client_request(resource, client_socket)
-        else:
-            print('Error: Not a valid HTTP request')
-            break
+    trash = client_socket.recv(5000)
+
+    valid_http, resource = validate_http_request()
+    logging.debug("Is The Request Valid: " + str(valid_http))
+    if valid_http:
+        print('Got a valid HTTP request')
+        response_status_code = "200 OK"
+        handle_client_request(resource, client_socket)
+    else:
+        print('Error: Not a valid HTTP request')
     print('Closing connection')
 
 
 def main():
+    """
+    Runs the server
+    :return: None
+    """
     global status_code_flag
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
@@ -223,6 +226,8 @@ def main():
                 handle_client(client_socket)
             except socket.error as err:
                 print('received socket exception - ' + str(err))
+            finally:
+                client_socket.close()
     except socket.error as err:
         print('received socket exception - ' + str(err))
     finally:
@@ -233,4 +238,6 @@ if __name__ == "__main__":
     if not os.path.isdir(LOG_DIR):
         os.makedirs(LOG_DIR)
     logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
+    assert get_extension_from_url("file.js") == "js"
+    assert (get_file_data("/assert_test.txt")).decode() == "eitan"
     main()
