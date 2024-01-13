@@ -580,3 +580,1017 @@ DEBUG | 2024-01-07 18:54:33,126 | processing handle client func
 DEBUG | 2024-01-07 18:54:35,136 | ready for client request
 DEBUG | 2024-01-07 18:54:35,136 | processing handle client func
 DEBUG | 2024-01-07 18:54:37,147 | ready for client request
+DEBUG | 2024-01-11 20:40:30,284 | ready for client request
+DEBUG | 2024-01-11 20:40:37,367 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,527 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,527 | Request URI: /
+DEBUG | 2024-01-11 20:40:37,527 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,527 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,535 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,535 | ready for client request
+DEBUG | 2024-01-11 20:40:37,535 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,562 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,562 | Request URI: /css/doremon.css
+DEBUG | 2024-01-11 20:40:37,562 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,562 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,580 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,580 | ready for client request
+DEBUG | 2024-01-11 20:40:37,580 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,580 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,580 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-11 20:40:37,580 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,580 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,584 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,584 | ready for client request
+DEBUG | 2024-01-11 20:40:37,584 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,584 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,584 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-11 20:40:37,584 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,584 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,601 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,601 | ready for client request
+DEBUG | 2024-01-11 20:40:37,601 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,601 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,601 | Request URI: /js/box.js
+DEBUG | 2024-01-11 20:40:37,601 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,601 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,624 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,624 | ready for client request
+DEBUG | 2024-01-11 20:40:37,624 | processing handle client func
+DEBUG | 2024-01-11 20:40:37,624 | Request Type: GET
+DEBUG | 2024-01-11 20:40:37,624 | Request URI: /js/submit.js
+DEBUG | 2024-01-11 20:40:37,624 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:40:37,624 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:40:37,667 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:40:37,667 | ready for client request
+DEBUG | 2024-01-11 20:43:30,757 | ready for client request
+DEBUG | 2024-01-11 20:43:47,610 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,610 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,610 | Request URI: /
+DEBUG | 2024-01-11 20:43:47,610 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,610 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,628 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,628 | ready for client request
+DEBUG | 2024-01-11 20:43:47,628 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,643 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,643 | Request URI: /css/doremon.css
+DEBUG | 2024-01-11 20:43:47,643 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,646 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,660 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,660 | ready for client request
+DEBUG | 2024-01-11 20:43:47,660 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,661 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,661 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-11 20:43:47,661 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,661 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,672 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,672 | ready for client request
+DEBUG | 2024-01-11 20:43:47,672 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,672 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,672 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-11 20:43:47,672 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,672 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,678 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,678 | ready for client request
+DEBUG | 2024-01-11 20:43:47,678 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,679 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,679 | Request URI: /js/box.js
+DEBUG | 2024-01-11 20:43:47,679 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,679 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,696 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,696 | ready for client request
+DEBUG | 2024-01-11 20:43:47,696 | processing handle client func
+DEBUG | 2024-01-11 20:43:47,700 | Request Type: GET
+DEBUG | 2024-01-11 20:43:47,700 | Request URI: /js/submit.js
+DEBUG | 2024-01-11 20:43:47,700 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-11 20:43:47,700 | Is The Request Valid: True
+DEBUG | 2024-01-11 20:43:47,716 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-11 20:43:47,716 | ready for client request
+DEBUG | 2024-01-13 19:14:53,241 | ready for client request
+DEBUG | 2024-01-13 19:15:02,355 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,523 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,524 | Request URI: /
+DEBUG | 2024-01-13 19:15:02,524 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,528 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,528 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,558 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,558 | ready for client request
+DEBUG | 2024-01-13 19:15:02,559 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,574 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,574 | Request URI: /css/doremon.css
+DEBUG | 2024-01-13 19:15:02,574 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,576 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,576 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,587 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,587 | ready for client request
+DEBUG | 2024-01-13 19:15:02,587 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,587 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,587 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-13 19:15:02,587 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,590 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,590 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,596 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,597 | ready for client request
+DEBUG | 2024-01-13 19:15:02,597 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,597 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,597 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-13 19:15:02,597 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,600 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,600 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,604 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,604 | ready for client request
+DEBUG | 2024-01-13 19:15:02,604 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,604 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,604 | Request URI: /js/submit.js
+DEBUG | 2024-01-13 19:15:02,604 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,606 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,606 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,621 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,621 | ready for client request
+DEBUG | 2024-01-13 19:15:02,621 | processing handle client func
+DEBUG | 2024-01-13 19:15:02,622 | Request Type: GET
+DEBUG | 2024-01-13 19:15:02,622 | Request URI: /js/box.js
+DEBUG | 2024-01-13 19:15:02,622 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:15:02,624 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:15:02,624 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:15:02,635 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:15:02,635 | ready for client request
+DEBUG | 2024-01-13 19:16:10,237 | processing handle client func
+DEBUG | 2024-01-13 19:16:10,408 | Request Type: GET
+DEBUG | 2024-01-13 19:16:10,408 | Request URI: /forbidden
+DEBUG | 2024-01-13 19:16:10,408 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:16:10,422 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:16:10,423 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:16:10,423 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:16:10,423 | ready for client request
+DEBUG | 2024-01-13 19:16:10,424 | processing handle client func
+DEBUG | 2024-01-13 19:16:12,429 | ready for client request
+DEBUG | 2024-01-13 19:16:44,402 | processing handle client func
+DEBUG | 2024-01-13 19:16:44,621 | Request Type: GET
+DEBUG | 2024-01-13 19:16:44,621 | Request URI: /error
+DEBUG | 2024-01-13 19:16:44,621 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:16:44,623 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:16:44,623 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:16:44,623 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:16:44,623 | ready for client request
+DEBUG | 2024-01-13 19:16:44,624 | processing handle client func
+DEBUG | 2024-01-13 19:16:46,639 | ready for client request
+DEBUG | 2024-01-13 19:17:21,113 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,376 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,376 | Request URI: /moved
+DEBUG | 2024-01-13 19:17:21,376 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,383 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,383 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,384 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,384 | ready for client request
+DEBUG | 2024-01-13 19:17:21,384 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,387 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,387 | Request URI: /
+DEBUG | 2024-01-13 19:17:21,387 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,392 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,392 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,392 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,392 | ready for client request
+DEBUG | 2024-01-13 19:17:21,402 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,402 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,402 | Request URI: /css/doremon.css
+DEBUG | 2024-01-13 19:17:21,402 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,404 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,404 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,405 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,405 | ready for client request
+DEBUG | 2024-01-13 19:17:21,405 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,406 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,406 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-13 19:17:21,406 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,408 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,408 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,409 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,409 | ready for client request
+DEBUG | 2024-01-13 19:17:21,409 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,409 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,409 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-13 19:17:21,409 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,411 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,412 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,412 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,412 | ready for client request
+DEBUG | 2024-01-13 19:17:21,412 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,412 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,412 | Request URI: /js/box.js
+DEBUG | 2024-01-13 19:17:21,412 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,414 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,415 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,415 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,415 | ready for client request
+DEBUG | 2024-01-13 19:17:21,415 | processing handle client func
+DEBUG | 2024-01-13 19:17:21,415 | Request Type: GET
+DEBUG | 2024-01-13 19:17:21,415 | Request URI: /js/submit.js
+DEBUG | 2024-01-13 19:17:21,415 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:17:21,417 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,he-IL;q=0.8,he;q=0.7
+
+
+DEBUG | 2024-01-13 19:17:21,417 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:17:21,417 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:17:21,417 | ready for client request
+DEBUG | 2024-01-13 19:20:44,334 | ready for client request
+DEBUG | 2024-01-13 19:21:08,474 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,484 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,484 | Request URI: /moved
+DEBUG | 2024-01-13 19:21:08,485 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,487 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,487 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,487 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,487 | ready for client request
+DEBUG | 2024-01-13 19:21:08,507 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,512 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,512 | Request URI: /
+DEBUG | 2024-01-13 19:21:08,512 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,515 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,515 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,516 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,516 | ready for client request
+DEBUG | 2024-01-13 19:21:08,516 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,524 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,524 | Request URI: /css/doremon.css
+DEBUG | 2024-01-13 19:21:08,524 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,527 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,527 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,527 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,528 | ready for client request
+DEBUG | 2024-01-13 19:21:08,528 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,528 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,528 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-13 19:21:08,528 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,532 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,532 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,533 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,533 | ready for client request
+DEBUG | 2024-01-13 19:21:08,533 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,534 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,534 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-13 19:21:08,534 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,536 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,537 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,537 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,537 | ready for client request
+DEBUG | 2024-01-13 19:21:08,537 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,538 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,538 | Request URI: /js/box.js
+DEBUG | 2024-01-13 19:21:08,538 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,540 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,540 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,540 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,540 | ready for client request
+DEBUG | 2024-01-13 19:21:08,540 | processing handle client func
+DEBUG | 2024-01-13 19:21:08,540 | Request Type: GET
+DEBUG | 2024-01-13 19:21:08,540 | Request URI: /js/submit.js
+DEBUG | 2024-01-13 19:21:08,540 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:08,540 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:08,540 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:08,540 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:08,540 | ready for client request
+DEBUG | 2024-01-13 19:21:14,694 | processing handle client func
+DEBUG | 2024-01-13 19:21:14,713 | Request Type: GET
+DEBUG | 2024-01-13 19:21:14,713 | Request URI: /error
+DEBUG | 2024-01-13 19:21:14,713 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:14,715 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:14,715 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:14,715 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:14,715 | ready for client request
+DEBUG | 2024-01-13 19:21:14,717 | processing handle client func
+DEBUG | 2024-01-13 19:21:16,728 | ready for client request
+DEBUG | 2024-01-13 19:21:16,728 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,592 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,592 | Request URI: /
+DEBUG | 2024-01-13 19:21:18,593 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,595 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,596 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,596 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,596 | ready for client request
+DEBUG | 2024-01-13 19:21:18,596 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,605 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,605 | Request URI: /css/doremon.css
+DEBUG | 2024-01-13 19:21:18,605 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,605 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,605 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,605 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,605 | ready for client request
+DEBUG | 2024-01-13 19:21:18,605 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,605 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,605 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-13 19:21:18,605 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,605 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,605 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,605 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,605 | ready for client request
+DEBUG | 2024-01-13 19:21:18,605 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,605 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,605 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-13 19:21:18,605 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,605 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,605 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,605 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,605 | ready for client request
+DEBUG | 2024-01-13 19:21:18,605 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,605 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,605 | Request URI: /js/box.js
+DEBUG | 2024-01-13 19:21:18,605 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,605 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,605 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,605 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,605 | ready for client request
+DEBUG | 2024-01-13 19:21:18,620 | processing handle client func
+DEBUG | 2024-01-13 19:21:18,620 | Request Type: GET
+DEBUG | 2024-01-13 19:21:18,620 | Request URI: /js/submit.js
+DEBUG | 2024-01-13 19:21:18,620 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:18,620 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:18,620 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:18,620 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:18,620 | ready for client request
+DEBUG | 2024-01-13 19:21:29,709 | processing handle client func
+DEBUG | 2024-01-13 19:21:29,724 | Request Type: GET
+DEBUG | 2024-01-13 19:21:29,724 | Request URI: /wjnf.css
+DEBUG | 2024-01-13 19:21:29,724 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:29,726 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:29,726 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:29,726 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:29,726 | ready for client request
+DEBUG | 2024-01-13 19:21:29,728 | processing handle client func
+DEBUG | 2024-01-13 19:21:31,732 | ready for client request
+DEBUG | 2024-01-13 19:21:31,732 | processing handle client func
+DEBUG | 2024-01-13 19:21:33,738 | ready for client request
+DEBUG | 2024-01-13 19:21:40,687 | processing handle client func
+DEBUG | 2024-01-13 19:21:40,714 | Request Type: GET
+DEBUG | 2024-01-13 19:21:40,714 | Request URI: //
+DEBUG | 2024-01-13 19:21:40,714 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:40,717 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:40,717 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:40,717 | ready for client request
+DEBUG | 2024-01-13 19:21:40,717 | processing handle client func
+DEBUG | 2024-01-13 19:21:40,717 | Request Type: GET
+DEBUG | 2024-01-13 19:21:40,718 | Request URI: //
+DEBUG | 2024-01-13 19:21:40,718 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:40,721 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:40,721 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:40,721 | ready for client request
+DEBUG | 2024-01-13 19:21:40,721 | processing handle client func
+DEBUG | 2024-01-13 19:21:41,767 | Request Type: GET
+DEBUG | 2024-01-13 19:21:41,767 | Request URI: //
+DEBUG | 2024-01-13 19:21:41,767 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:41,770 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:41,770 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:41,770 | ready for client request
+DEBUG | 2024-01-13 19:21:41,770 | processing handle client func
+DEBUG | 2024-01-13 19:21:41,770 | Request Type: GET
+DEBUG | 2024-01-13 19:21:41,771 | Request URI: //
+DEBUG | 2024-01-13 19:21:41,771 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:41,775 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:41,775 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:41,775 | ready for client request
+DEBUG | 2024-01-13 19:21:41,775 | processing handle client func
+DEBUG | 2024-01-13 19:21:41,775 | Request Type: GET
+DEBUG | 2024-01-13 19:21:41,776 | Request URI: //
+DEBUG | 2024-01-13 19:21:41,776 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:41,780 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:41,780 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:41,780 | ready for client request
+DEBUG | 2024-01-13 19:21:43,739 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,756 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,756 | Request URI: /
+DEBUG | 2024-01-13 19:21:43,756 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,758 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,758 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,758 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,759 | ready for client request
+DEBUG | 2024-01-13 19:21:43,763 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,765 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,765 | Request URI: /css/doremon.css
+DEBUG | 2024-01-13 19:21:43,765 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,767 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,767 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,768 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,768 | ready for client request
+DEBUG | 2024-01-13 19:21:43,768 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,768 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,768 | Request URI: /imgs/abstract.jpg
+DEBUG | 2024-01-13 19:21:43,768 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,768 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,768 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,768 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,768 | ready for client request
+DEBUG | 2024-01-13 19:21:43,768 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,768 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,768 | Request URI: /js/jquery.min.js
+DEBUG | 2024-01-13 19:21:43,768 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,768 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,768 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,768 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,768 | ready for client request
+DEBUG | 2024-01-13 19:21:43,768 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,768 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,768 | Request URI: /js/box.js
+DEBUG | 2024-01-13 19:21:43,768 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,768 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,768 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,768 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,768 | ready for client request
+DEBUG | 2024-01-13 19:21:43,768 | processing handle client func
+DEBUG | 2024-01-13 19:21:43,768 | Request Type: GET
+DEBUG | 2024-01-13 19:21:43,768 | Request URI: /js/submit.js
+DEBUG | 2024-01-13 19:21:43,768 | Request Protocol Version: HTTP/1.1
+DEBUG | 2024-01-13 19:21:43,768 | Request Headers: Host: 127.0.0.1
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: http://127.0.0.1/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: he,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+
+
+DEBUG | 2024-01-13 19:21:43,768 | Is The Request Valid: True
+DEBUG | 2024-01-13 19:21:43,768 | A Response Was Sent Back To The Client.
+DEBUG | 2024-01-13 19:21:43,768 | ready for client request
