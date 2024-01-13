@@ -43,7 +43,7 @@ def get_file_data(file_name):
     """
     Get data from file
     :param file_name: the name of the file
-    :return: file data in a string
+    :return: data from file in a string
     """
     file_path = WEB_ROOT + file_name
     global response_body_length, response_status_code
@@ -120,11 +120,11 @@ def handle_client_request(resource, client_socket):
 
     if response_status_code == "200 OK":
         http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
-                       response_content_type + chr(13) + chr(10) +
+                       "Content-Type: " + response_content_type + chr(13) + chr(10) + "Content-Length: " +
                        str(response_body_length) + chr(13) + chr(10) + chr(13) + chr(10))
     elif response_status_code == "302 MOVED TEMPORARILY":
         http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10) +
-                        "Location: /" + chr(13) + chr(10) + chr(13) + chr(10))
+                     "Location: /" + chr(13) + chr(10) + chr(13) + chr(10))
     else:
         http_header = (request_protocol_version + chr(32) + response_status_code + chr(13) + chr(10)
                        + chr(13) + chr(10))
@@ -140,16 +140,17 @@ def validate_http_request():
     """
     Check if request is a valid HTTP request and returns TRUE / FALSE and
     the requested URL
-    :return: a tuple of (True/False - depending if the request is valid,
+    :return: a tuple of (True/False - depending on if the request is valid,
     the requested resource )
     """
     global validate_header_flag
-    if validate_header_flag == True:
+    if validate_header_flag:
         if request_type != "GET":
             validate_header_flag = False
         if request_protocol_version != "HTTP/1.1":
             validate_header_flag = False
     return validate_header_flag, request_uri
+
 
 def read_from_socket(client_socket, delimiter):
     """
@@ -172,6 +173,27 @@ def read_from_socket(client_socket, delimiter):
     return content
 
 
+def handle_request_headers(client_socket):
+    while_flag = True
+    client_request_headers = ""
+    recieved_char = ''
+    while while_flag:
+        recieved_char = client_socket.recv(1).decode()
+        client_request_headers = client_request_headers + recieved_char
+        if (recieved_char == chr(13)):
+            recieved_char = client_socket.recv(1).decode()
+            client_request_headers = client_request_headers + recieved_char
+            if (recieved_char == chr(10)):
+                recieved_char = client_socket.recv(1).decode()
+                client_request_headers = client_request_headers + recieved_char
+                if (recieved_char == chr(13)):
+                    recieved_char = client_socket.recv(1).decode()
+                    client_request_headers = client_request_headers + recieved_char
+                    if (recieved_char == chr(10)):
+                        while_flag = False
+    return client_request_headers
+
+
 def handle_client(client_socket):
     """
     Handles client requests: verifies client's requests are legal HTTP, calls
@@ -179,7 +201,7 @@ def handle_client(client_socket):
     :param client_socket: the socket for the communication with the client
     :return: None
     """
-    global request_type, request_uri, request_protocol_version, response_status_code,\
+    global request_type, request_uri, request_protocol_version, response_status_code, \
         response_body_length, status_code_flag
     status_code_flag = True
     print('Client connected')
@@ -192,7 +214,8 @@ def handle_client(client_socket):
     logging.debug("Request URI: " + request_uri)
     logging.debug("Request Protocol Version: " + request_protocol_version)
 
-    trash = client_socket.recv(5000)
+    request_headers = handle_request_headers(client_socket)
+    logging.debug("Request Headers: " + request_headers)
 
     valid_http, resource = validate_http_request()
     logging.debug("Is The Request Valid: " + str(valid_http))
